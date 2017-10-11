@@ -12,11 +12,11 @@ class Triangle
 
     if valid?
       if is_equilateral?
-        return :equilateral
+        :equilateral
       elsif is_isosceles?
-        return :isosceles
+        :isosceles
       elsif is_scalene?
-        return :scalene
+        :scalene
       end
     else
       raise TriangleError
