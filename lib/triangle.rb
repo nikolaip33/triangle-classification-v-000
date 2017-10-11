@@ -28,7 +28,7 @@ class Triangle
   end
 
   def valid?
-    [a, b, c].all? { |s| s > 0} && self.triangle_inequality?
+    [a, b, c].all? { |s| s > 0 } && self.triangle_inequality?
   end
 
   def is_equilateral?
